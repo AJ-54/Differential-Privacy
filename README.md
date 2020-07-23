@@ -1,4 +1,8 @@
 # Differential Privacy and PATE Analysis for MNIST Dataset
+
+## Project guidance: 
+Thanks to Udacity for Secure and Private AI Scholarship!
+
 ## Project Background: 
 We, as a student, has a labeled private dataset and an unlabeled public dataset. We would like to collaberate with certain number of teachers to label our public dataset by training their similar datasets. In order to protect the data privacy of the teachers, we agree to add global noise to the labels they return for the public dataset. Then we label our public dataset based on the labels that most teachers agree. We combine the new labels with the public dataset and train with our private dataset. <br><br>
 PATE analysis is performed on teachers' predictions and the new labels with certain level of epsilon indicating how much information leakage is allowed.
